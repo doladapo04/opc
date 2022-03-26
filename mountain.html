@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="./animate/animate.css">
+   <link rel="stylesheet" type="text/css" href="mountain.css">
+
+   <title>Mountain Nav</title>
+</head>
+<body>
+   <div id="mountain-container">
+      <div class="clouds"></div>
+      <img src="mountain.png" class="animate__animated animate__slideInUp mountain">
+      <a href="#" id="peak-1" class="mount-link animate__animated animate__slideInUp" onclick="homeFunction()">home</a>
+      <a href="#" id="peak-2" class="mount-link animate__animated animate__slideInUp" onclick="aboutFunction()">about</a>
+      <a href="#" id="peak-3" class="mount-link animate__animated animate__slideInUp" onclick="contactFunction()">contact</a>
+      <h1 class="animate__animated animate__slideInLeft explore">explore.</h1>
+      <img src="stickman.png" id="stickman">
+   </div>
+  
+   <script type="text/javascript">
+      stickman = document.getElementById("stickman")
+      cont = document.getElementById("mountain-container")
+
+      function homeFunction() {
+         stickman.className === "home"
+      }
+   </script> 
+</body>
+</html>

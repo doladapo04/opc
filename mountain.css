@@ -1,0 +1,133 @@
+#mountain-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.clouds {
+  background-image: url(clouds.png);
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.explore {
+  font-size: 70px;
+  text-transform: capitalize;
+  color: #000080;
+  animation-delay: 3s;
+  position: absolute;
+  top: 10%;
+  left: 0;
+}
+
+.mountain {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+}
+
+#stickman {
+  position: absolute;
+  width: 120px;
+  bottom: 0;
+}
+
+.mount-link {
+  position: absolute;
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Segoe Script, sans-serif;
+  animation-delay: 1.5s;
+}
+
+#peak-1 {
+  top: 65%;
+  left: 30%;
+}
+
+#peak-2 {
+  top: 40%;
+  left: 40%;
+}
+
+#peak-3 {
+  top: 5%;
+  left: 50%;
+  transform: rotate(60deg);
+}
+
+.home {
+  animation: home 1.5s linear;
+}
+
+@keyframes home {
+  10% {
+    bottom: 0;
+    left: 0;
+  }
+  20% {
+    bottom: 20%;
+    left: 20%;
+  }
+  25% {
+    bottom: 18%;
+    left: 22%;
+  }
+  30% {
+    bottom: 20%;
+    left: 24%;
+  }
+  35% {
+    bottom: 24%;
+    left: 36%;
+  }
+  37% {
+    bottom: 34%;
+    left: 40%;
+  }
+  40% {
+    bottom: 40%;
+    left: 42%;
+  }
+  47% {
+    bottom: 45%;
+    left: 44%;
+  }
+  /*50% {
+    bottom: 0;
+    left: 0;
+  }
+  52% {
+    bottom: 0;
+    left: 0;
+  }
+  60% {
+    bottom: 0;
+    left: 0;
+  }
+  64% {
+    bottom: 0;
+    left: 0;
+  }
+  67% {
+    bottom: 0;
+    left: 0;
+  }
+  70% {
+    bottom: 0;
+    left: 0;
+  }*/
+  100% {
+    bottom: 35%;
+    left: 30%;
+  }
+}

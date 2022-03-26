@@ -1,0 +1,7 @@
+==> weird typography
+==> crazy bootstrap implementation
+==> more animations
+==> detailed animation*
+==> cool preloader..
+==> funky menu option
+==> fade away animation

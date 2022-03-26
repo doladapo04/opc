@@ -1,0 +1,174 @@
+/*!
+ * One Page Creative v1.0.0 (https://onepagecreative.com/)
+ * Copyright 2021-2022 Zany.io
+ * Copyright 2021-2022 Algo Corp
+ * Licensed under MIT (https://github.com/)
+*/
+
+/* Fancy Nav Concept #1 */
+/* Box Nav */
+
+/* Styling for the navigation menu container */
+.nav-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+}
+
+/* Styling for "navigation menu" */
+.box-cont {
+  width: 50%;
+  height: 50%;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+
+/* Tourist Atraction (The Box!!) */
+.box {
+  display: block;
+  animation: shake 1.2s linear;
+  animation-delay: 0.8s;
+  width: 180px;
+  height: 180px;
+  z-index: 10;
+  margin: auto;
+}
+
+/* Animation for the box */
+@keyframes shake {
+  10% {
+    transform: rotate(5deg)
+  }
+  20% {
+    transform: rotate(-5deg)
+  }
+  30% {
+    transform: rotate(5deg)
+  }
+  40% {
+    transform: rotate(-5deg)
+  }
+  50% {
+    transform: rotate(5deg)
+  }
+  60% {
+    transform: rotate(-5deg)
+  }
+  70% {
+    transform: rotate(5deg)
+  }
+  80% {
+    transform: rotate(-5deg)
+  }
+  90% {
+    transform: rotate(5deg)
+  }
+  100% {
+    transform: rotate(0deg)
+  }
+}
+
+/* Links that jump out of the box */
+.weird-link {
+  color: blue;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Segoe Script, sans-serif;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+/* Styling for the 1st link */
+#link-1 {
+  animation: dis 1s linear;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+
+#link-1:hover {
+  transition: all 0.7s ease-out;
+  transform: rotate(360deg);
+}
+
+/* Animation for the 1st link */
+@keyframes dis {
+  from {
+    top: 50%;
+    right: 50%;
+  }
+  40% {
+    z-index: 11;
+    opacity: .5;
+  }
+  50% {
+    top: 10%;
+  }
+  to {
+    top: 15%;
+    right: 15%;
+  }
+}
+
+/* Styling for the 2nd link */
+#link-2 {
+  animation: reloc 1s linear;
+  animation-delay: 2.6s;
+  animation-fill-mode: both;
+}
+
+/* Animation for the 2nd link */
+@keyframes reloc {
+  from {
+    top: 50%;
+    right: 50%;
+  }
+  40% {
+    z-index: 11;
+    opacity: .5;
+  }
+  50% {
+    top: 5%;
+  }
+  to {
+    top: 50%;
+    right: 5%;
+  }
+}
+
+/* Styling for the 3rd link */
+#link-3 {
+  animation: rev 1s linear;
+  animation-delay: 3.2s;
+  animation-fill-mode: both;
+}
+
+/* Animation for the 3rd link */
+@keyframes rev {
+  from {
+    top: 50%;
+    right: 50%;
+  }
+  40% {
+    z-index: 11;
+    opacity: .5;
+  }
+  50% {
+    top: 10%;
+  }
+  to {
+    top: 15%;
+    right: 75%;
+  }
+}
+
+/* Design Concept by A.O.G */
+/* Link to demo on https://codepen.io/ */
+/* One Page Creative brought to you by Zany.io and Algo Corp */

@@ -1,0 +1,31 @@
+.absolute-cont {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-circle {
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid #f00;
+}
+
+.nav-container {
+  width: 175px;
+  background: rgba(0, 0, 0, .7);
+  box-shadow: 5px 5px 10px 0 #f00;
+  border-radius: 50%;
+  border: 5px solid #f00;
+}
+
+.nav-list li {
+  text-transform: capitalize;
+  list-style-type: none;
+}
+
+.nav-list a {
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+}
+

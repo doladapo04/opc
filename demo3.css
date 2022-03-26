@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff !important;
+  background: #fe7a7b !important;
+  cursor: url(cursor.png), auto !important;
+  overflow-y: hidden;
+}
+
+/* "VScroll" Effect */
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.wrapper .item {
+  min-width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  margin-right: 2px;
+}
+
+.item-content {
+  height: 100%;
+}
+/* "VScroll" Effect/End */
+
+#menu-container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 5px solid red;
+}
+
+#cool-menu {
+  width: 70%;
+  height: 80%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*overflow: hidden;*/
+  border-radius: 50%;
+  border: 5px solid red;
+}
+
+.menu-img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.images-container {
+  width: 100%;
+  height: 50%;
+}
+
+.image-container {
+  width: 25%;
+}
+
+.images-container div {
+  padding: 0;
+}
+
+.image-bg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+
+.white-overlay {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: rgba(255, 255, 255, .5);
+}
+
+.white-overlay:hover {
+  animation: myFadeOut 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes myFadeOut {
+  from {
+    opacity: 1;
+    display: block;
+  }
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.location-box {
+  color: #fff;
+  text-align: center;
+  position: absolute !important;
+  padding: 0!important;
+}
+
+.box-1 {
+  bottom: 0;
+}
+
+.box-2 {
+  bottom: 40%;
+  left: 40%;
+}
+
+@media (max-width: 576px) {
+  .box-2 {
+    left: 0;
+  }
+}
+
+.box-3 {
+  top: 0;
+  right: 0;
+}
+
+.loc-icon {
+  display: block;
+  font-size: 40px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  background: red;
+  border-radius: 50%;
+}
+
+::-webkit-scrollbar {
+  height: 10px !important;
+  background: #fe7a7b;
+}
+
+::-webkit-scrollbar-thumb {
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 10px;
+}
+
+#smc {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#smb ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+#smb a {
+  color: white;
+  font-size: 30px;
+}

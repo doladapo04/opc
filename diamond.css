@@ -1,0 +1,40 @@
+.square-cont {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: 
+}
+
+.black-square {
+  width: 100%;
+  height: 100%;
+  background-image: url(rect.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  animation: tilt 1s linear;
+  animation-fill-mode: both;
+  animation-delay: 1.5s;
+}
+
+@keyframes tilt {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(30deg);
+  }
+}
+
+.links-cont {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.random-link {
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+  position: absolute;
+}

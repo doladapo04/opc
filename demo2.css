@@ -1,0 +1,289 @@
+body {
+  color: #fff !important;
+  overflow-x: hidden;
+  background: #0085ff !important;
+}
+
+#preloader {
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+
+.preloader-div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  animation-duration: 1s;
+}
+
+.cont {
+  width: 500px;
+  height: 120px;
+  background: transparent;
+  position: fixed;
+  bottom: 0;
+  z-index: 101;
+  animation-delay: 3s;
+}
+
+.donut-container {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+#container-link {
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  background-color: #007bff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  z-index: 101;
+}
+
+.spec-no {
+  color: #fff;
+  position: absolute;
+  font-size: 25px;
+}
+
+.special-link {
+  color: #007bff;
+  background: #fff;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  position: absolute;
+  top: 20%;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+.rot-1 {
+  animation: rotone 1s linear;
+  animation-fill-mode: both;
+}
+
+@keyframes rotone {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.rot-2 {
+  animation: rottwo 1s linear;
+  animation-fill-mode: both;
+  animation-iteration-count: 2;
+}
+
+@keyframes rottow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.rot-3 {
+  animation: rotthree 1s linear;
+  animation-fill-mode: both;
+  animation-iteration-count: 3;
+}
+
+@keyframes rotthree {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.rot-4 {
+  animation: rotfour 1s linear;
+  animation-fill-mode: both;
+  animation-iteration-count: 4;
+}
+
+@keyframes rotfour {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.rot-5 {
+  animation: rottwo 1s linear;
+  animation-fill-mode: both;
+  animation-iteration-count: 2;
+}
+
+@keyframes rottow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.rollone {
+  animation: one 1s linear;
+  animation-fill-mode: both;
+}
+
+@keyframes one {
+  from {
+    left: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    left: 20%;
+    transform: rotate(720deg);
+  }
+}
+
+.rolltwo {
+  animation: two 1s linear;
+  animation-fill-mode: both;
+}
+
+@keyframes two {
+  from {
+    left: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    left: 35%;
+    transform: rotate(1440deg);
+  }
+}
+
+.rollthree {
+  animation: three 1s linear;
+  animation-fill-mode: both;
+}
+
+@keyframes three {
+  from {
+    left: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    left: 50%;
+    transform: rotate(2160deg);
+  }
+}
+
+.rollfour {
+  animation: four 1s linear;
+  animation-fill-mode: both;
+}
+
+@keyframes four {
+  from {
+    left: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    left: 65%;
+    transform: rotate(2880deg);
+  }
+}
+
+.rollfive {
+  animation: five 1s linear;
+  animation-fill-mode: both;
+}
+
+@keyframes five {
+  from {
+    left: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    left: 80%;
+    transform: rotate(5760deg);
+  }
+}
+
+.content {
+  position: absolute;
+  top: 0;
+}
+
+.major-div {
+  width: 100vw;
+  height: 100vh;
+}
+
+.div-heading {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+::-webkit-scrollbar {
+  width: 3px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 10px;
+}
+
+#frameone, #frametwo, #framethree, #framefour, #framefive {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
